@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: tlc_taxi_trips
+    description: "Source data for taxi trips in New York City"
+    meta: 
+      external_location: "https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet"
+    tables:
+      - name: raw_yellow_tripdata 
+        description: "Raw taxi trips data"
+      
